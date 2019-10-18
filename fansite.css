@@ -1,0 +1,1372 @@
+@font-face {
+	font-family: "Bebas Neue";
+	font-style: normal;
+	font-weight: normal;
+	src: local("Bebas Neue"), url('font/BebasNeue.otf') format('opentype');
+}
+
+@font-face {
+	font-family: "Bebas Neue Light";
+	font-style: normal;
+	font-weight: normal;
+	src: local("Bebas Neue Light"), url('font/BebasNeueLight.otf') format('opentype');
+}
+
+body {
+	margin: 0;
+}
+
+/* ===== HEADER ===== */
+
+header {
+	display: flex;
+	flex-direction: column;
+}
+
+#reseaux {
+	background-color: #262626;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+#hfacebook {
+	background-image: url(img/hfacebook.png);
+	height: 30px;
+	width: 30px;
+	transition: all 0.25s;
+}
+
+#hfacebook:hover {
+	background-image: url(img/hfacebook2.png);
+	height: 30px;
+	width: 30px;
+}
+
+#htwitter {
+	background-image: url(img/htwitter.png);
+	height: 30px;
+	width: 30px;
+	transition: all 0.25s;
+}
+
+#htwitter:hover {
+	background-image: url(img/htwitter2.png);
+	height: 30px;
+	width: 30px;
+}
+#hyoutube {
+	background-image: url(img/hyoutube.png);
+	height: 30px;
+	width: 30px;
+	transition: all 0.25s;
+}
+
+#hyoutube:hover {
+	background-image: url(img/hyoutube2.png);
+	height: 30px;
+	width: 30px;
+}
+#hinsta{
+	background-image: url(img/hinsta.png);
+	height: 30px;
+	width: 30px;
+}
+#hinsta:hover {
+	background-image: url(img/hinsta2.png);
+	height: 30px;
+	width: 30px;
+}
+
+nav {
+/*	background-color: blue; */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-left: 30px;
+	margin-right: 30px;
+	font-family: "Bebas Neue";
+	font-size: 24px;
+	padding-top: 20px;
+}
+
+header nav a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#case1h {
+/*	background-color: brown; */
+	width: 9%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#case1h:hover {
+	color: red;
+}
+
+#case2h {
+/*	background-color: yellow; */
+	width: 9%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#case2h:hover {
+	color: red;
+}
+
+#caselogoh {
+/*	background-color: orange;*/
+	min-width: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#case3h {
+/*	background-color: green; */
+	width: 9%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#case3h:hover {
+	color: red;
+}
+
+#case4h {
+/*	background-color: purple; */
+	width: 9%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#case4h:hover {
+	color: red;
+}
+
+#case5h {
+/*	background-color: lightblue; */
+	width: 9%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#case5h:hover {
+	color: red;
+}
+
+#case6h {
+/*	background-color: lightgreen; */
+	width: 9%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#case6h:hover {
+	color: red;
+}
+
+#logoheader {
+	height: 100px;
+	width: 400px;
+}
+
+.red2 {
+	color: red;
+}
+
+/* ===== FOOTER ===== */
+
+footer{
+	background-image: url(img/footer.png);
+	background-size: contain;
+	background-position: center;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color: white;
+}
+.footertop{
+	display: flex;
+	justify-content: space-around;
+}
+.footerbottom{
+	background-color: rgba(184, 20, 19, 0.1);
+	display: flex;
+	justify-content: space-between;
+	padding:10px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	
+}
+.footerleft{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.footerleft img{
+  width: 50px;
+  height: 50px;
+}
+.footerleft img:hover{
+  opacity: 0.5;
+}
+.navfooter{
+	display: flex;
+	justify-content: space-around;
+	width: 400px;
+}
+.footercenter{
+  background-color: rgba(184, 20, 19, 0.1);
+  border:solid white;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
+}
+.footercenter img:hover{
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+.footerright{
+  background-color: rgba(184, 20, 19, 0.1);
+  border:solid white;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
+}
+.footerright img{
+  padding-right: 10px;
+}
+.footerright img:hover{
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+/* ===== FORMULAIRE ===== */
+
+#entete {
+/*	background-color: grey;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80px;
+	margin-bottom: 20px;
+}
+
+#titleconnexion {
+/*	background-color: yellow;*/
+	font-family: "Bebas Neue";
+	font-size: 50px;
+	color: #262626;
+}
+
+#containercontact {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 350px;
+/*	background-color: blue;*/
+}
+
+#containervalid {
+/*	background-color: lightgrey;*/
+	display: flex;
+	justify-content: center;
+	height: 60px;
+}
+
+#cvalid {
+/*	background-color: green;*/
+	height: 55px;
+	width: 280px;
+	border-radius: 20px;
+	border: 2px solid #12053a;
+	color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 5px;
+	background-color: white;
+}
+
+#cvalid:hover {
+	border: none;
+	color: white;
+	background-image: linear-gradient(to right, red, black);
+	transform: scale(1.1);
+	transition: 0.25s ease-in-out;
+}
+
+#mail {
+	height: 55px;
+	width: 360px;
+	font-size: 18px;
+	border: 2px solid black;
+	border-radius: 6px;
+	padding-left: 10px;
+	background-color: white;
+	color: grey;
+}
+
+#mail:focus {
+	border: 2px solid red;
+}
+
+#mail:focus::placeholder {
+	color: grey;
+}
+
+#mail::placeholder {
+	color: red;
+}
+
+#cmail {
+/*	background-color: purple;*/
+	height: 70px;
+	width: 360px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#cpres {
+/*	background-color: purple;*/
+	height: 180px;
+	width: 360px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#pres {
+	height: 180px;
+	width: 360px;
+	font-size: 18px;
+	border: 2px solid black;
+	border-radius: 6px;
+	padding-left: 10px;
+	background-color: white;
+	resize: none;
+	font-family: sans-serif;
+}
+
+#pres::placeholder {
+	color: red;
+	padding-top: 3px;
+}
+
+#pres:focus {
+	border: 2px solid red;
+}
+
+#pres:focus::placeholder {
+	color: grey;
+}
+
+#containerformulaire {
+/*	background-color: red;*/
+	width: 40%;
+	padding-bottom: 20px;
+}
+
+#main6 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#imagegauche {
+}
+
+input:focus {
+	outline: none;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+/* ===== MEDIA ===== */
+
+#containerdervid2 {
+/*	background-color: red;*/
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#containertitlevid2 {
+/*	background-color: orange;*/
+	padding-top: 30px;
+}
+
+#containervideos2 {
+/*	background-color: yellow;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 820px;
+	flex-wrap: wrap;
+	padding-top: 30px;
+}
+
+#containerbg2 {
+	background-color: #262626;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#containertitlebg2 {
+/*	background-color: blue;*/
+	margin-top: 20px;
+	color: white;
+}
+
+#containerimg2 {
+/*	background-color: brown;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 930px;
+	flex-wrap: wrap;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.divider {
+	margin: 0 -100%;
+	margin-top: 10px;
+}
+
+#containertitlevid2 .divider::before, #containertitlevid2 .divider::after {
+	content: '';
+	height: 1px;
+	border: solid 1px black;
+	border-left: none;
+	border-right: none;  
+	width: 100px;
+	margin: 0 30px;  
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#containerformulaire .divider::before, #containerformulaire .divider::after {
+	content: '';
+	height: 1px;
+	border: solid 1px black;
+	border-left: none;
+	border-right: none;  
+	width: 100px;
+	margin: 0 30px;  
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.divider::before,.divider::after {
+	content: '';
+	height: 1px;
+	border: solid 1px white;
+	border-left: none;
+	border-right: none;  
+	width: 100px;
+	margin: 0 30px;  
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#blanc {
+	color: white;
+}
+
+#noir {
+	color: black;
+}
+
+.titre {
+	font-size: 44px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-family: "Bebas Neue";
+}
+
+.vid2 {
+/*	background-color: cyan;*/
+	height: 290px;
+}
+
+.img2 {
+	transition: all 0.25s ease-in-out;
+	height: 200px;
+	width: 300px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.img2:hover {
+	transform: scale(1.1);
+}
+
+/* ===== AGENDA ===== */
+
+#containeragenda {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 80px;
+}
+
+#tableauagenda th {
+	background-color: #262626;
+	height: 60px;
+}
+
+#tableauagenda td {
+/*	background-color: green;*/
+}
+
+#tableauagenda tr {
+	border-bottom: 2px solid #C4C5C5;
+}
+
+#tableauagenda thead tr {
+	border-bottom: none;
+}
+
+#tableauagenda thead tr th:first-child {
+	border-top-left-radius: 10px;
+}
+
+#tableauagenda thead tr th:last-child {
+	border-top-right-radius: 10px;
+}
+
+#tableauagenda table {
+	border-collapse: collapse;
+}
+
+#titrecalendrier {
+	font-size: 40px;
+	font-family: "Bebas Neue";
+	color: white;
+	font-weight: lighter;
+}
+
+.elogo {
+	width: 80px;
+	height: 80px;
+	margin-left: 27px;
+	margin-right: 27px;
+}
+
+.vs {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 800px;
+	height: 140px;
+}
+
+.equipe {
+	font-family: "Bebas Neue";
+	font-size: 34px;
+}
+
+.score {
+	font-family: "Bebas Neue Light";
+	font-size: 26px;
+}
+
+.journee {
+	font-family: sans-serif;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+.date {
+	font-family: sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+.date span {
+	font-weight: bold;
+}
+
+ #tableauagenda tbody tr {
+	height: 140px;
+}
+
+#tableauclassement table, th, td {
+	border-collapse: collapse;
+}
+
+#containerclassement {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+
+#tableauclassement th {
+	background-color: #262626;
+	height: 60px;
+}
+
+.casepos {
+	width: 400px;
+/*	background-color: blue;*/
+	height: 45px;
+	font-size: 22px;
+	font-family: "Bebas Neue";
+}
+
+.casepos span {
+	margin-left: 30px;
+}
+
+.casepts {
+	width: 80px;
+/*	background-color: green;*/
+	text-align: center;
+	height: 45px;
+	font-size: 22px;
+	font-family: "Bebas Neue";
+}
+
+.caseJ, .caseG, .caseN, .caseP, .caseBI, .caseBC {
+	width: 60px;
+	text-align: center;
+	height: 45px;
+	font-size: 22px;
+	font-family: "Bebas Neue";
+}
+
+.casediff {
+	width: 70px;
+	text-align: center;
+	height: 45px;
+	font-size: 22px;
+	font-family: "Bebas Neue";
+}
+
+.caseposbody {
+	width: 400px;
+/*	background-color: blue;*/
+	height: 65px;
+	font-family: "Bebas Neue";
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.caseptsbody {
+	width: 80px;
+/*	background-color: green;*/
+	text-align: center;
+	height: 65px;
+	font-size: 24px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: grey;
+}
+
+.caseJbody, .caseGbody, .caseNbody, .casePbody, .caseBIbody, .caseBCbody {
+	width: 60px;
+	text-align: center;
+	height: 65px;
+	font-size: 22px;
+	font-family: sans-serif;
+	color: grey;
+}
+
+.casediffbody {
+	width: 70px;
+	text-align: center;
+	height: 65px;
+	font-size: 22px;
+	font-family: sans-serif;
+	color: grey;
+}
+
+.logoequipe2 {
+	width: 30px;
+	height: 30px;
+	padding-right: 15px;
+	padding-left: 30px;
+}
+
+.pos1a4 {
+	height: 40px;
+	width: 40px;
+	border-radius: 50px;
+	background-color: #E7C379;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10px;
+}
+
+.pos5a6 {
+	height: 40px;
+	width: 40px;
+	border-radius: 50px;
+	color: white;
+	background-color: #F6A628;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10px;
+}
+
+.pos7a17 {
+	height: 40px;
+	width: 40px;
+	border-radius: 50px;
+	background-color: white;
+	border: 1px solid grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10px;
+}
+
+.pos18a20 {
+	height: 40px;
+	width: 40px;
+	border-radius: 50px;
+	color: white;
+	background-color: #E22125;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10px;
+}
+
+.nomclub2 {
+	font-size: 26px;
+}
+
+#titreclassement {
+	font-size: 40px;
+	font-family: "Bebas Neue";
+	color: white;
+	font-weight: lighter;
+}
+
+#tableauclassement thead tr th:first-child {
+	border-top-left-radius: 10px;
+}
+
+#tableauclassement thead tr th:last-child {
+	border-top-right-radius: 10px;
+}
+
+#tableauclassement tr {
+	border-bottom: 2px solid #C4C5C5;
+}
+
+#tableauclassement thead tr {
+	border: none;
+}
+
+
+/* Page Accueil */
+main{
+	display: flex;
+	flex-direction: column;
+}
+@keyframes slide {
+    0%, 20%, 100% {
+        left: 0; 
+    }
+    35%, 50% {
+        left: -100vw; 
+    }
+    70%, 95% {
+        left: -200vw; 
+    }
+}
+#slider {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 500px;
+}
+#slides {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    max-height: 100%;
+    animation-name: slide;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+#slides figure {
+    display: inline-block;
+    width: 100vw;
+    max-height: 100%;
+    margin: 0;
+}
+
+#slides figure img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#slides figure figcaption {
+    position: absolute;
+    bottom: 0;
+    padding: 2.5em 0;
+    text-align: center;
+    width: inherit;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+#slides a:link{
+	color: white;
+	text-decoration: none;
+}
+#slides a:active{
+	color: white;
+	text-decoration: none;
+}
+#slides a:visited{
+	color: white;
+	text-decoration: none;
+}
+#slides a:hover{
+	color: red;
+	text-decoration: none;
+}
+.actus{
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-family: "Bebas Neue";
+}
+.topActus{
+	display: flex;
+	justify-content: space-around;
+}
+.topActus img{
+	width: 350px;
+	height: 200px;
+	border-radius: 5px;
+}
+.topActus img:hover{
+   transform: scale(1.5);
+}
+#articles{
+	border: solid black;
+	border-radius: 20px;
+	width: 400px;
+	padding: 20px;
+	margin: 20px;
+}
+.forza{
+	height: 300px;
+	background: linear-gradient(#AF0B01, black);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#forzamilan{
+    margin-top: 40px;
+    text-align: center;
+}
+#forzamilan img{
+    width: 500px;
+    height: 50px;
+}
+#forzamilan p{
+    font-size: 40px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: white;
+}
+#socialinks{
+	width: 500px;
+	display: flex;
+	justify-content: space-around;
+}
+#socialinks img{
+	width: 50px;
+	height: 50px;
+}
+#socialinks img:hover{
+	opacity: 0.5;
+}
+.application{
+	height: 300px;
+	background-image: url(img/banner.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+#appbutton{
+  margin-bottom: 30px;
+  margin-right: 170px;
+}
+#appbutton img{
+  width: 120px;
+  height: 50px;
+}
+#appbutton img:hover{
+  opacity: 0.5;
+}
+.partners{
+	height: 300px;
+	background: linear-gradient(#AF0B01, black);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#mainpartners{
+   width: 500px;
+   display: flex;
+   justify-content: space-around;
+   margin-top: 15px;
+}
+#mainpartners img{
+   width: 150px;
+   height: 100px;
+}
+#mainpartners img:hover{
+   opacity: 0.5;
+}
+#otherpartners{
+	width: 100%;
+	height: 150px;
+	padding-top: 20px;
+	background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Courier New", Courier, monospace;
+}
+#otherpartners img{
+   width: 900px;
+   height: 120px;
+}
+#otherpartners p{
+   font-weight: bold;
+}
+#otherpartners a:link{
+   color: #AF0B01;
+   text-decoration: none;
+}
+#otherpartners a:visited{
+   color: #AF0B01;
+}
+#otherpartners a:active{
+   color: #AF0B01;
+}
+#otherpartners a:hover{
+   color: black;
+}
+/* Histoire */
+
+.history{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+#clubdescription{
+    text-align: center;
+    padding: 10px;
+}
+#clubdescription h1{
+	font-family: "Bebas Neue";
+	font-size: 40px;
+}
+#clubdescription p{
+	text-align: left;
+	font-family: "Courier New", Courier, monospace;
+}
+#clubdescription img{
+	width: 250px;
+	height: 250px;
+}
+#clubdescription img:hover{
+	-webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+#palmares{
+	background: linear-gradient(#AF0B01, black);
+    text-align: center;
+    color: white;
+}
+#palmares h1{
+	font-family: "Bebas Neue";
+	font-size: 40px;
+}
+#palmares p{
+	text-align: left;
+	font-family: "Courier New", Courier, monospace;
+}
+#cups{
+	display: flex;
+	justify-content: center;
+}
+#cups img{
+    width: 100px;
+    height: 120px;
+}
+#cups img:hover{
+	-webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.myTable{
+	border-spacing: 20px;
+}
+.myTable td{
+    max-width: 150px;
+}
+.myTable p{
+    font-size: 20px;
+}
+#fondation{
+    text-align: center;
+    padding: 10px;
+}
+#fondation h1{
+	font-family: "Bebas Neue";
+	font-size: 40px;
+}
+#fondation p{
+	text-align: left;
+	font-family: "Courier New", Courier, monospace;
+}
+#fondation img{
+   border-radius: 20px;
+}
+#fondation img:hover{
+   transform: scale(1.5);
+}
+#premierscudetti{
+	background: linear-gradient(#AF0B01, black);
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+#premierscudetti h1{
+	font-family: "Bebas Neue";
+	font-size: 40px;
+}
+#premierscudetti p{
+	text-align: left;
+	font-family: "Courier New", Courier, monospace;
+}
+#premierscudetti img{
+   border-radius: 20px;
+}
+#premierscudetti img:hover{
+   transform: scale(1.5);
+}
+#desert{
+    text-align: center;
+    padding: 10px;
+}
+#desert h1{
+	font-family: "Bebas Neue";
+	font-size: 40px;
+}
+#desert p{
+	text-align: left;
+	font-family: "Courier New", Courier, monospace;
+}
+#desert img{
+   border-radius: 20px;
+}
+#desert img:hover{
+   transform: scale(1.5);
+}
+#grenoli{
+	background: linear-gradient(#AF0B01, black);
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+#grenoli h1{
+	font-family: "Bebas Neue";
+	font-size: 40px;
+}
+#grenoli p{
+	text-align: left;
+	font-family: "Courier New", Courier, monospace;
+}
+#grenoli img{
+   border-radius: 20px;
+}
+#grenoli img:hover{
+   transform: scale(1.5);
+}
+#nereorocco{
+    text-align: center;
+    padding: 10px;
+}
+#nereorocco h1{
+	font-family: "Bebas Neue";
+	font-size: 40px;
+}
+#nereorocco p{
+	text-align: left;
+	font-family: "Courier New", Courier, monospace;
+}
+#nereorocco img{
+   border-radius: 20px;
+}
+#nereorocco img:hover{
+   transform: scale(1.5);
+}
+#enfers{
+	background: linear-gradient(#AF0B01, black);
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+#enfers h1{
+	font-family: "Bebas Neue";
+	font-size: 40px;
+}
+#enfers p{
+	text-align: left;
+	font-family: "Courier New", Courier, monospace;
+}
+#enfers img{
+   border-radius: 20px;
+}
+#enfers img:hover{
+   transform: scale(1.5);
+}
+#immortels{
+    text-align: center;
+    padding: 10px;
+}
+#immortels h1{
+	font-family: "Bebas Neue";
+	font-size: 40px;
+}
+#immortels p{
+	text-align: left;
+	font-family: "Courier New", Courier, monospace;
+}
+#immortels img{
+	width: 250px;
+	height: 200px;
+	border-radius: 20px;
+}
+#immortels img:hover{
+   transform: scale(1.5);
+}
+#invincibles{
+	background: linear-gradient(#AF0B01, black);
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+#invincibles h1{
+	font-family: "Bebas Neue";
+	font-size: 40px;
+}
+#invincibles p{
+	text-align: left;
+	font-family: "Courier New", Courier, monospace;
+}
+#invincibles img{
+   border-radius: 20px;
+}
+#invincibles img:hover{
+   transform: scale(1.5);
+}
+#egarement{
+    text-align: center;
+    padding: 10px;
+}
+#egarement h1{
+	font-family: "Bebas Neue";
+	font-size: 40px;
+}
+#egarement p{
+	text-align: left;
+	font-family: "Courier New", Courier, monospace;
+}
+#egarement img{
+	width: 250px;
+	height: 200px;
+	border-radius: 20px;
+}
+#egarement img:hover{
+   transform: scale(1.5);
+}
+#ancelotti{
+	background: linear-gradient(#AF0B01, black);
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+#ancelotti h1{
+	font-family: "Bebas Neue";
+	font-size: 40px;
+}
+#ancelotti p{
+	text-align: left;
+	font-family: "Courier New", Courier, monospace;
+}
+#ancelotti img{
+	border-radius: 20px;
+}
+#ancelotti img:hover{
+   transform: scale(1.5);
+}
+#titre{
+	display: flex;
+	justify-content: center;
+}
+#titre img{
+	height: 30px;
+	width: 300px;
+	padding: 60px;
+}
+/* Effectif */
+#gardiens{
+	background: linear-gradient(#AF0B01, black);
+	text-align: left;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+}
+#gardiens h1{
+	margin-top: 0px;
+}
+#gardiens img{
+	width: 200px;
+	height : 200px;
+}
+#content{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 100px;
+	justify-content: center;
+	align-items: center;
+}
+#players{
+	padding:10px;
+}
+#players .text {
+bottom:30px;
+visibility:hidden;
+color: white;
+font-size: 20px;
+font-family: "Bebas Neue";
+text-align: center;
+text-shadow: 1px 1px 2px white;
+}
+
+#players:hover .text {
+visibility:visible;
+}
+#defenseurs{
+	background: linear-gradient(#AF0B01, black);
+	text-align: left;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+}
+#defenseurs h1{
+	margin-top: 0px;
+}
+#defenseurs img{
+    width: 200px;
+	height : 200px;
+}
+#title{
+	text-align: center;
+	background-color: white;
+	font-family: "Bebas Neue";
+	font-size: 40px;
+	color: black;
+}
+#milieux{
+	background: linear-gradient(#AF0B01, black);
+	text-align: left;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+}
+#milieux h1{
+	margin-top: 50px;
+}
+#milieux img{
+	width: 200px;
+	height : 200px;
+
+}
+#attaquants{
+	background: linear-gradient(#AF0B01, black);
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+}
+#attaquants h1{
+	margin-top: 50px;
+}
+#attaquants img{
+	width: 200px;
+	height : 200px;
+}
+#circle{
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 50px;
+	padding-top:10px;
+}
